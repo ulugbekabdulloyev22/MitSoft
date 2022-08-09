@@ -104,4 +104,21 @@
   width: inherit;
   height: 50px;
   background-color: rgb(36, 35, 35);
+  align-items: center;
+}
+.header .nav .div-bottom .ul-2 {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header .nav .div-bottom .ul-2 li {
+  margin-top: 13px;
+}
+.header .nav .div-bottom .ul-2 li a {
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.header .nav .div-bottom .ul-2 li a:hover {
+  color: crimson;
 }/*# sourceMappingURL=stayl.css.map */

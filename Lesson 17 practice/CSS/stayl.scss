@@ -115,6 +115,27 @@
             width: inherit;
             height: 50px;
             background-color: rgb(36, 35, 35);
+            align-items: center;
+
+            .ul-2{
+                list-style: none;
+                display: flex;
+                justify-content: space-evenly;
+                
+                li{
+                    margin-top: 13px;
+
+                    a{
+                        align-items: center;
+                        color: white;
+                        text-decoration: none;
+
+                        &:hover{
+                            color: crimson;
+                        }
+                    }
+                }
+            }
         }
     }
 }
