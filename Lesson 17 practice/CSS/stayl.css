@@ -29,7 +29,7 @@
 }
 .header .nav .div-top .ul-1 li {
   margin-top: 15px;
-  padding: 0px 10px 0 10px;
+  padding: 0px 4px 0 4px;
   border-right: 2px solid rgba(238, 238, 238, 0.9333333333);
 }
 .header .nav .div-top .ul-1 li:nth-of-type(4) {
@@ -68,8 +68,36 @@
 .header .nav .div-center {
   border: inherit;
   width: inherit;
-  height: 100px;
+  height: 150px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav .div-center div {
+  padding-left: 30px;
+}
+.header .nav .div-center div h1 {
+  font-size: 2.9rem;
+}
+.header .nav .div-center div h1 span {
+  font-size: 4rem;
+}
+.header .nav .div-center div h3 {
+  font-size: 1.2rem;
+}
+.header .nav .div-center div {
+  margin-right: 15px;
+}
+.header .nav .div-center div i {
+  font-size: 1.5rem;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.header .nav .div-center div i:hover {
+  color: orange;
 }
 .header .nav .div-bottom {
   border: inherit;
