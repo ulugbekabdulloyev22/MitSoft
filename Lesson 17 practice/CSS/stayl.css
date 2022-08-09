@@ -2,4 +2,78 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.header {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+.header .nav {
+  border: inherit;
+  width: inherit;
+  height: 200px;
+}
+.header .nav .div-top {
+  border: inherit;
+  width: inherit;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: crimson;
+}
+.header .nav .div-top .ul-1 {
+  display: flex;
+  list-style: none;
+}
+.header .nav .div-top .ul-1 li {
+  margin-top: 15px;
+  padding: 0px 10px 0 10px;
+  border-right: 2px solid rgba(238, 238, 238, 0.9333333333);
+}
+.header .nav .div-top .ul-1 li:nth-of-type(4) {
+  border: none;
+}
+.header .nav .div-top .ul-1 li a {
+  text-decoration: none;
+  color: rgba(238, 238, 238, 0.9333333333);
+}
+.header .nav .div-top form {
+  position: relative;
+  margin-right: 10px;
+}
+.header .nav .div-top form input {
+  background-color: white;
+  width: 250px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-family: cursive;
+  padding: 10px;
+  padding-right: 25px;
+}
+.header .nav .div-top form i {
+  padding: 4px;
+  position: absolute;
+  top: 2px;
+  right: 25px;
+  font-size: 1.2rem;
+  background-color: crimson;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header .nav .div-center {
+  border: inherit;
+  width: inherit;
+  height: 100px;
+  background-color: white;
+}
+.header .nav .div-bottom {
+  border: inherit;
+  width: inherit;
+  height: 50px;
+  background-color: rgb(36, 35, 35);
 }/*# sourceMappingURL=stayl.css.map */

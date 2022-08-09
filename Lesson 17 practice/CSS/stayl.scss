@@ -3,3 +3,85 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header{
+    // border: 2px solid red;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+
+    .nav{
+        border: inherit;
+        width: inherit;
+        height: 200px;
+
+        .div-top{
+            border: inherit;
+            width: inherit;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: crimson;
+
+            .ul-1{
+                display: flex;
+                list-style: none;
+
+                li{
+                    margin-top: 15px;
+                    padding: 0px 10px 0 10px;
+                    border-right: 2px solid #eeee;
+                    &:nth-of-type(4){
+                        border: none;
+                    }
+
+                    a{
+                        text-decoration: none;
+                        color: #eeee;
+                    }
+                }
+            }
+            form{
+                position: relative;
+                margin-right: 10px;
+                input{
+                    background-color: white;
+                    width: 250px;
+                    height: 30px;
+                    border-radius: 30px;
+                    border: none;
+                    outline: none;
+                    font-family: cursive;
+                    padding: 10px;
+                    padding-right: 25px;
+                }
+                i{
+                    padding: 4px;
+                    position: absolute;
+                    top: 2px;
+                    right: 25px;
+                    font-size: 1.2rem;
+                    background-color: crimson;
+                    color: white;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .div-center{
+            border: inherit;
+            width: inherit;
+            height: 100px;
+            background-color: white;
+        }
+
+        .div-bottom{
+            border: inherit;
+            width: inherit;
+            height: 50px;
+            background-color: rgb(36, 35, 35);
+        }
+    }
+}
