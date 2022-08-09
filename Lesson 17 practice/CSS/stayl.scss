@@ -7,11 +7,13 @@
 .header{
     // border: 2px solid red;
     margin: auto;
+    position: relative;
     width: 100vw;
     height: 100vh;
 
     .nav{
         border: inherit;
+        position: relative;
         width: inherit;
         height: 200px;
 
@@ -104,15 +106,16 @@
                     border-radius: 50%;
 
                     &:hover{
-                        color: orange;
+                        background-color: orange;
                     }
                 }
             }
         }
 
         .div-bottom{
+            margin: auto;
             border: inherit;
-            width: inherit;
+            width: 98vw;
             height: 50px;
             background-color: rgb(36, 35, 35);
             align-items: center;
@@ -134,6 +137,53 @@
                             color: crimson;
                         }
                     }
+                }
+            }
+        }
+    }
+
+
+    .section{
+        // border: 2px solid red;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .div-img{
+            border: inherit;
+            width: 45vw;
+
+            img{
+                position: absolute;
+                left: 10px;
+                bottom: 0;
+                width: 40vw;
+                height: 85vh;
+            }
+        }
+
+        .div-text{
+            border: inherit;
+            position: relative;
+            width: 55vw;
+            padding-top: 150px;
+
+            h1{
+                font-size: 8.2rem;
+            }
+
+            a{
+                color: crimson;
+                font-family: cursive;
+                text-decoration: none;
+                position: absolute;
+                right: 50px;
+
+                &:hover{
+                  color: red;  
                 }
             }
         }

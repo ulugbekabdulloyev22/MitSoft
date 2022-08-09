@@ -6,11 +6,13 @@
 
 .header {
   margin: auto;
+  position: relative;
   width: 100vw;
   height: 100vh;
 }
 .header .nav {
   border: inherit;
+  position: relative;
   width: inherit;
   height: 200px;
 }
@@ -97,11 +99,12 @@
   border-radius: 50%;
 }
 .header .nav .div-center div i:hover {
-  color: orange;
+  background-color: orange;
 }
 .header .nav .div-bottom {
+  margin: auto;
   border: inherit;
-  width: inherit;
+  width: 98vw;
   height: 50px;
   background-color: rgb(36, 35, 35);
   align-items: center;
@@ -121,4 +124,42 @@
 }
 .header .nav .div-bottom .ul-2 li a:hover {
   color: crimson;
+}
+.header .section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .section .div-img {
+  border: inherit;
+  width: 45vw;
+}
+.header .section .div-img img {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 40vw;
+  height: 85vh;
+}
+.header .section .div-text {
+  border: inherit;
+  position: relative;
+  width: 55vw;
+  padding-top: 150px;
+}
+.header .section .div-text h1 {
+  font-size: 8.2rem;
+}
+.header .section .div-text a {
+  color: crimson;
+  font-family: cursive;
+  text-decoration: none;
+  position: absolute;
+  right: 50px;
+}
+.header .section .div-text a:hover {
+  color: red;
 }/*# sourceMappingURL=stayl.css.map */
