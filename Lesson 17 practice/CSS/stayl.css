@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*       Start Header       */
 .header {
   margin: auto;
   position: relative;
@@ -93,7 +94,7 @@
 }
 .header .nav .div-center div i {
   font-size: 1.5rem;
-  padding: 8px;
+  padding: 9px;
   background-color: black;
   color: white;
   border-radius: 50%;
@@ -162,4 +163,6 @@
 }
 .header .section .div-text a:hover {
   color: red;
-}/*# sourceMappingURL=stayl.css.map */
+}
+
+/*      End of Header       *//*# sourceMappingURL=stayl.css.map */

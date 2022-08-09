@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*       Start Header       */
 .header{
     // border: 2px solid red;
     margin: auto;
@@ -100,7 +101,7 @@
 
                 i{
                     font-size: 1.5rem;
-                    padding: 8px;
+                    padding: 9px;
                     background-color: black;
                     color: white;
                     border-radius: 50%;
@@ -189,3 +190,4 @@
         }
     }
 }
+/*      End of Header       */
