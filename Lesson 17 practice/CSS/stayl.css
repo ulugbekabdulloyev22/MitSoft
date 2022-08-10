@@ -168,6 +168,7 @@
 /*      End of Header       */
 /*      Start Section-1     */
 .section-1 {
+  border: 2px solid red;
   display: flex;
   position: relative;
   top: 250px;
@@ -204,4 +205,20 @@
 }
 .section-1 .div-img-2 a:hover {
   color: red;
+}
+.section-1 .div-img-text {
+  position: relative;
+}
+.section-1 .div-img-text div {
+  display: inline-block;
+  border: inherit;
+  height: 22vh;
+}
+.section-1 .div-img-text div img {
+  width: 100px;
+  height: 100px;
+}
+.section-1 .div-img-text div p {
+  border: inherit;
+  width: 300px;
 }/*# sourceMappingURL=stayl.css.map */
