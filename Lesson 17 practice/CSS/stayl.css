@@ -165,4 +165,43 @@
   color: red;
 }
 
-/*      End of Header       *//*# sourceMappingURL=stayl.css.map */
+/*      End of Header       */
+/*      Start Section-1     */
+.section-1 {
+  display: flex;
+  position: relative;
+  top: 250px;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  width: 100vw;
+  height: 100vh;
+}
+.section-1 div {
+  border: inherit;
+  width: 33vw;
+  height: 100vh;
+}
+.section-1 div h2 {
+  margin: 25px 0 25px 20px;
+}
+.section-1 .div-img-2 {
+  position: relative;
+}
+.section-1 .div-img-2 img {
+  margin-left: 20px;
+  width: 390px;
+  height: 240px;
+}
+.section-1 .div-img-2 p {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.section-1 .div-img-2 a {
+  color: crimson;
+  font-family: cursive;
+  text-decoration: none;
+  position: absolute;
+  right: 50px;
+}
+.section-1 .div-img-2 a:hover {
+  color: red;
+}/*# sourceMappingURL=stayl.css.map */

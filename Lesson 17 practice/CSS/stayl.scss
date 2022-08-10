@@ -191,3 +191,51 @@
     }
 }
 /*      End of Header       */
+
+/*      Start Section-1     */
+.section-1{
+    // border: 2px solid red;
+    display: flex;
+    position: relative;
+    top: 250px; 
+    background-color: #eeee;
+    width: 100vw;
+    height: 100vh;
+
+    div{
+        border: inherit;
+        width: 33vw;
+        height: 100vh;
+
+        h2{
+            margin: 25px 0 25px 20px;
+        }
+    }
+
+    .div-img-2{
+        position: relative;
+
+        img{
+            margin-left: 20px;
+            width: 390px;
+            height: 240px;
+        }
+
+        p{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+
+        a{
+            color: crimson;
+            font-family: cursive;
+            text-decoration: none;
+            position: absolute;
+            right: 50px;
+
+            &:hover{
+              color: red;  
+            }
+        }
+    }
+}
