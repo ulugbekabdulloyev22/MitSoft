@@ -168,7 +168,6 @@
 /*      End of Header       */
 /*      Start Section-1     */
 .section-1 {
-  border: 2px solid red;
   display: flex;
   position: relative;
   top: 250px;
@@ -210,15 +209,27 @@
   position: relative;
 }
 .section-1 .div-img-text div {
-  display: inline-block;
+  display: flex;
   border: inherit;
-  height: 22vh;
+  height: 122px;
 }
 .section-1 .div-img-text div img {
   width: 100px;
-  height: 100px;
+  height: 85px;
 }
 .section-1 .div-img-text div p {
   border: inherit;
-  width: 300px;
+  margin-left: 20px;
+  width: 400px;
+  height: 85px;
+}
+.section-1 .div-img-text a {
+  color: crimson;
+  font-family: cursive;
+  text-decoration: none;
+  position: absolute;
+  right: 50px;
+}
+.section-1 .div-img-text a:hover {
+  color: red;
 }/*# sourceMappingURL=stayl.css.map */

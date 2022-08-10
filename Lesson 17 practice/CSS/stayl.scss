@@ -194,7 +194,7 @@
 
 /*      Start Section-1     */
 .section-1{
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     position: relative;
     top: 250px; 
@@ -243,18 +243,32 @@
         position: relative;
 
         div{
-            display: inline-block;
+            display: flex;
             border: inherit;
-            height: 22vh;
+            height: 122px;
 
             img{
                 width: 100px;
-                height: 100px;
+                height: 85px;
             }
 
             p{
-                border: inherit ;
-                width: 300px;
+                border: inherit;
+                margin-left: 20px;
+                width: 400px;
+                height: 85px;
+            }
+        }
+
+        a{
+            color: crimson;
+            font-family: cursive;
+            text-decoration: none;
+            position: absolute;
+            right: 50px;
+
+            &:hover{
+              color: red;  
             }
         }
     }
