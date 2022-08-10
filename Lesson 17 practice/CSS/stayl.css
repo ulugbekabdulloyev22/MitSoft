@@ -159,7 +159,7 @@
   font-family: cursive;
   text-decoration: none;
   position: absolute;
-  right: 50px;
+  right: 30px;
 }
 .header .section .div-text a:hover {
   color: red;
@@ -200,7 +200,7 @@
   font-family: cursive;
   text-decoration: none;
   position: absolute;
-  right: 50px;
+  right: 30px;
 }
 .section-1 .div-img-2 a:hover {
   color: red;
@@ -216,6 +216,7 @@
 .section-1 .div-img-text div img {
   width: 100px;
   height: 85px;
+  padding-left: 15px;
 }
 .section-1 .div-img-text div p {
   border: inherit;
@@ -228,8 +229,45 @@
   font-family: cursive;
   text-decoration: none;
   position: absolute;
-  right: 50px;
+  right: 30px;
 }
 .section-1 .div-img-text a:hover {
   color: red;
+}
+.section-1 .div-text-2 {
+  position: relative;
+}
+.section-1 .div-text-2 div {
+  height: 244px;
+  padding-top: 35px;
+  padding-left: 25px;
+}
+.section-1 .div-text-2 div h5 {
+  padding-left: 40px;
+}
+.section-1 .div-text-2 a {
+  color: crimson;
+  font-family: cursive;
+  text-decoration: none;
+  position: absolute;
+  right: 30px;
+}
+.section-1 .div-text-2 a:hover {
+  color: red;
+}
+
+/*      End of Section-1        */
+/*      Start Footer        */
+.footer {
+  border: 2px solid red;
+  margin-top: 250px;
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+}
+.footer div {
+  border: inherit;
+  width: 25%;
+  height: 50vh;
 }/*# sourceMappingURL=stayl.css.map */

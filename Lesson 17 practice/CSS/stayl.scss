@@ -181,7 +181,7 @@
                 font-family: cursive;
                 text-decoration: none;
                 position: absolute;
-                right: 50px;
+                right: 30px;
 
                 &:hover{
                   color: red;  
@@ -231,7 +231,7 @@
             font-family: cursive;
             text-decoration: none;
             position: absolute;
-            right: 50px;
+            right: 30px;
 
             &:hover{
               color: red;  
@@ -250,6 +250,7 @@
             img{
                 width: 100px;
                 height: 85px;
+                padding-left: 15px;
             }
 
             p{
@@ -265,11 +266,54 @@
             font-family: cursive;
             text-decoration: none;
             position: absolute;
-            right: 50px;
+            right: 30px;
 
             &:hover{
               color: red;  
             }
         }
+    }
+
+    .div-text-2{
+        position: relative;
+
+        div{
+            height: 244px;
+            padding-top: 35px;
+            padding-left: 25px;
+
+            h5{
+                padding-left: 40px;
+            }
+        }
+
+        a{
+            color: crimson;
+            font-family: cursive;
+            text-decoration: none;
+            position: absolute;
+            right: 30px;
+
+            &:hover{
+              color: red;  
+            }
+        }
+    }
+}
+/*      End of Section-1        */
+/*      Start Footer        */
+
+.footer{
+    border: 2px solid red;
+    margin-top: 250px;
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+
+    div{
+        border: inherit;
+        width: 25%;
+        height: 50vh;
     }
 }
