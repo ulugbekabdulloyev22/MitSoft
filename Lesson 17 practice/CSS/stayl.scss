@@ -105,6 +105,7 @@
                     background-color: black;
                     color: white;
                     border-radius: 50%;
+                    transition: all 1s;
 
                     &:hover{
                         background-color: orange;
@@ -133,6 +134,7 @@
                         align-items: center;
                         color: white;
                         text-decoration: none;
+                        transition: all 1s;
 
                         &:hover{
                             color: crimson;
@@ -251,6 +253,10 @@
                 width: 100px;
                 height: 85px;
                 padding-left: 15px;
+
+                &:hover{
+                    transform: scale(1.2);
+                }
             }
 
             p{

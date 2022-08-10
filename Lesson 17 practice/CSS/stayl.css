@@ -98,6 +98,7 @@
   background-color: black;
   color: white;
   border-radius: 50%;
+  transition: all 1s;
 }
 .header .nav .div-center div i:hover {
   background-color: orange;
@@ -122,6 +123,7 @@
   align-items: center;
   color: white;
   text-decoration: none;
+  transition: all 1s;
 }
 .header .nav .div-bottom .ul-2 li a:hover {
   color: crimson;
@@ -217,6 +219,9 @@
   width: 100px;
   height: 85px;
   padding-left: 15px;
+}
+.section-1 .div-img-text div img:hover {
+  transform: scale(1.2);
 }
 .section-1 .div-img-text div p {
   border: inherit;
