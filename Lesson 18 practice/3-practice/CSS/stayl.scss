@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #fd868c 100%, #fd868c 100%, #fd868c 100%, #fd868c 100%);
+}
+
+.card{
+    // border: 2px solid red;
+    width: 30%;
+    height: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(../IMg/chumoli.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 210px;
+    border-radius: 30px;
+    background-color: white;
+
+    box-shadow:
+        3.4px 3.1px 4.2px rgba(0, 0, 0, 0.108),
+        9.3px 8.5px 11.6px rgba(0, 0, 0, 0.155),
+        22.3px 20.5px 28px rgba(0, 0, 0, 0.202),
+        74px 68px 93px rgba(0, 0, 0, 0.31);
+
+    img{
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        background-color: white;
+        border: 2px solid #b1b3b1;
+
+        box-shadow:
+            3.4px 3.6px 2.9px rgba(0, 0, 0, 0.031),
+            8.7px 9.1px 7.3px rgba(0, 0, 0, 0.044),
+            17.7px 18.6px 14.9px rgba(0, 0, 0, 0.056),
+            36.5px 38.3px 30.7px rgba(0, 0, 0, 0.069),
+            100px 105px 84px rgba(0, 0, 0, 0.1);
+    }
+
+    i{
+        position: absolute;
+        top: 230px;
+        right: 30px;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+
+    .box{
+        border: inherit;
+        width: 100%;
+        height: 300px;
+        position: relative;
+        top: 300px;
+        text-align: center;
+
+        h2{
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        p{
+            padding-top: 5px;
+            color: gray;
+        }
+
+        .follow{
+            position: relative;
+            border: inherit;
+            height: 80px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 10px;
+
+            h1{
+                font-family: 'Courier New', Courier, monospace Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: blue;
+            }
+        }
+
+        a{
+            background-color: orange;
+            position: relative;
+            top: 15px;
+            text-decoration: none;
+            color: black;
+            padding: 15px 150px;
+            border-radius: 30px;
+        }
+
+        .lorem{
+            margin: 30px;
+            padding-top: 13px;
+            text-align: justify;
+            color: black;
+        }
+    }
+
+}
