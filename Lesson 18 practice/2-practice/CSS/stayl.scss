@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:wght@500;900&family=Roboto+Mono:ital,wght@1,300&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    // border: 1px solid red;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+    .bac-img{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    }
+
+    .card{
+        position: absolute;
+        width: 250px;
+        height: 275px;
+        background-color: white;
+
+        box-shadow:
+            3.3px 3.5px 3.8px rgba(0, 0, 0, 0.059),
+            9px 9.6px 10.4px rgba(0, 0, 0, 0.085),
+            21.7px 23.2px 25px rgba(0, 0, 0, 0.111),
+            72px 77px 83px rgba(0, 0, 0, 0.17);
+
+        &:hover{
+            transform: scale(1.05);
+
+            box-shadow:
+                4.2px 3.5px 3.8px rgba(0, 0, 0, 0.038),
+                11.6px 9.6px 10.4px rgba(0, 0, 0, 0.055),
+                28px 23.2px 25px rgba(0, 0, 0, 0.072),
+                93px 77px 83px rgba(0, 0, 0, 0.11);
+        }
+
+        i{
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        img{
+            position: absolute;
+            top: 30px;
+            left: 70px;
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+
+            box-shadow:
+                0px 0px 1.9px rgba(0, 0, 0, 0.157),
+                0px 0px 5.1px rgba(0, 0, 0, 0.225),
+                0px 0px 12.4px rgba(0, 0, 0, 0.293),
+                0px 0px 41px rgba(0, 0, 0, 0.45);
+        }
+
+        h2{
+            position: absolute;
+            top: 150px;
+            right: 50px;
+        }
+
+        .box-bottom{
+            position: relative;
+            top: 200px;
+            width: 100%;
+            height: 70px;
+            background-color: rgba(245, 245, 245, 1);
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+
+            .number{
+                font-family: Abril Fatface;
+                margin-top: 15px;
+            }
+
+            span{
+                display: block;
+                margin: 5px;
+            }
+        }
+    }
+
+    .card-top{
+        border: inherit;
+        top: 70px;
+    }
+
+    .card-1{
+        left: 200px;
+    }
+
+    .card-2{
+        left: 550px;
+    }
+
+    .card-3{
+        right: 200px;
+    }
+
+    .card-bottom{
+        border: inherit;
+        top: 400px;
+    }
+
+    .card-4{
+        left: 200px;
+    }
+
+    .card-5{
+        left: 550px;
+    }
+
+    .card-6{
+        right: 200px;
+    }
+}
