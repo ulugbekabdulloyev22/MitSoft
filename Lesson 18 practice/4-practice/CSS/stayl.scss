@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeee;
+}
+
+.card{
+    border: 1px solid red;
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+
+    hr{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        border: 1px solid;
+    }
+}

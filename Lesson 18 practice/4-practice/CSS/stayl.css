@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+}
+
+.card {
+  border: 1px solid red;
+  position: relative;
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+.card hr {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  border: 1px solid;
+}/*# sourceMappingURL=stayl.css.map */
