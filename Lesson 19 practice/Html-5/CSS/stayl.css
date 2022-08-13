@@ -62,10 +62,11 @@ body {
   height: 50px;
   display: flex;
   justify-content: space-between;
-  padding: 12px 25px;
+  padding: 10px 25px;
 }
 .cards .card .bottom-like-icon h2 {
   color: rgb(15, 153, 118);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .cards .card .bottom-like-icon .icon {
   font-size: 1.5rem;
