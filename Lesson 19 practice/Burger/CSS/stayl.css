@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  border: 2px solid red;
+  width: 35%;
+  height: 550px;
+  margin: auto;
+  margin-top: 35px;
+  position: relative;
+}
+.card .fa-heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+  color: white;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card h3 {
+  font-size: 1.8rem;
+  margin: 25px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+.card .name-star {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+.card .name-star .name {
+  font-size: 1.2rem;
+  color: rgb(47, 47, 243);
+  letter-spacing: 2px;
+}
+.card .name-star .star {
+  display: flex;
+  color: gold;
+}
+.card .name-star .star .grey {
+  color: rgb(209, 208, 208);
+}
+.card .name-star .star p {
+  margin-left: 5px;
+  color: gray;
+  letter-spacing: 0.5px;
+}/*# sourceMappingURL=stayl.css.map */
