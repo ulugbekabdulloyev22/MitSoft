@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Figtree:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(231, 231, 224);
+}
+
+.cards {
+  width: 70%;
+  height: 580px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.cards .card {
+  position: relative;
+  border: inherit;
+  width: 49%;
+  height: 580px;
+  background-color: white;
+  box-shadow: 7px 10px 20px rgb(77, 74, 74);
+}
+.cards .card .user-img {
+  position: relative;
+  border: inherit;
+  width: 100%;
+  height: 250px;
+  background-image: url(../IMG/bac-img.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.cards .card .user-img .img-1 {
+  width: 100%;
+  height: 250px;
+}
+.cards .card .user-img .img-2 {
+  position: absolute;
+  width: 200px;
+  top: 20px;
+  left: 130px;
+}
+.cards .card h1 {
+  margin: 30px;
+  font-family: Figtree;
+}
+.cards .card p {
+  margin: 25px;
+  color: rgb(163, 163, 162);
+  font-size: 1.5rem;
+}
+.cards .card .bottom-like-icon {
+  position: absolute;
+  bottom: 0;
+  border: inherit;
+  border-top: 0.01px solid rgb(155, 154, 154);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 25px;
+}
+.cards .card .bottom-like-icon h2 {
+  color: rgb(15, 153, 118);
+}
+.cards .card .bottom-like-icon .icon {
+  font-size: 1.5rem;
+  color: rgb(15, 153, 118);
+}
+.cards .card .bottom-like-icon .icon i {
+  padding: 0 10px;
+}/*# sourceMappingURL=stayl.css.map */
