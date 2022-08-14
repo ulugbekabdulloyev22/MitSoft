@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@ body{
     width: 35%;
     height: 500px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 50px;
     position: relative;
     background-color: white;
     box-shadow: 10px 10px 20px gray;
@@ -34,9 +36,9 @@ body{
 
     h3{
         font-size: 1.8rem;
-        margin: 25px;
+        margin: 15px 25px;
         letter-spacing: 1px;
-        word-spacing: 5px;
+        font-family: Mukta;
     }
 
     .name-star{
@@ -106,6 +108,7 @@ body{
 
         .number{
             display: flex;
+            box-shadow: 2px 2px 5px rgb(223, 218, 218);
 
             i, p{
                 border: 1px solid #eee;
