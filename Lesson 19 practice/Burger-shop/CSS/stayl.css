@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+}
+.card .card-1 {
+  width: 35%;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 7px;
+  position: relative;
+  background-color: white;
+  box-shadow: 10px 10px 20px gray;
+}
+.card .card-1 .fa-heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.8rem;
+  color: white;
+}
+.card .card-1 img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 7px 7px 0 0;
+}
+.card .card-1 h3 {
+  font-size: 1.8rem;
+  margin: 15px 25px;
+  letter-spacing: 1px;
+  font-family: Mukta;
+}
+.card .card-1 .name-star {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+.card .card-1 .name-star .name {
+  font-size: 1.2rem;
+  color: rgb(47, 47, 243);
+  letter-spacing: 2px;
+}
+.card .card-1 .kcals {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  font-size: 1.2rem;
+}
+.card .card-1 .kcals .kcal {
+  display: flex;
+}
+.card .card-1 .kcals .kcal p {
+  padding-left: 10px;
+}
+.card .card-1 .kcals .veg {
+  background-color: rgb(6, 236, 6);
+  padding: 2px 7px;
+  border-radius: 5px;
+  color: #eee;
+}
+.card .card-1 .money-number {
+  border: inherit;
+  border-top: 1px solid rgb(179, 175, 175);
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  align-items: center;
+}
+.card .card-1 .money-number h2 {
+  letter-spacing: 3px;
+  color: orange;
+  font-size: 1.8rem;
+}
+.card .card-1 .money-number .number {
+  display: flex;
+  box-shadow: 2px 2px 5px rgb(223, 218, 218);
+}
+.card .card-1 .money-number .number i, .card .card-1 .money-number .number p {
+  border: 1px solid #eee;
+  padding: 7px 13px;
+  font-size: 1.2rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.card .card-1 .money-number .number i {
+  background-color: white;
+}
+.card .card-2 {
+  border: inherit;
+  width: 50%;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 7px;
+  position: relative;
+  background-color: white;
+  box-shadow: 10px 10px 20px gray;
+}
+.card .card-2 img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 7px 0 0 7px;
+}
+.card .card-2 .fa-heart {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  font-size: 1.8rem;
+  color: white;
+}
+.card .card-2 h3 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  font-size: 1.5rem;
+  margin: 15px 25px;
+  letter-spacing: 1px;
+  font-family: Mukta;
+}
+.card .card-2 .name-star {
+  position: absolute;
+  top: 90px;
+  left: 300px;
+  margin: 25px;
+}
+.card .card-2 .name-star .name {
+  font-size: 1.2rem;
+  color: rgb(47, 47, 243);
+  letter-spacing: 2px;
+}
+.card .card-2 .kcals {
+  width: 350px;
+  position: absolute;
+  top: 140px;
+  left: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  font-size: 1.2rem;
+}
+.card .card-2 .kcals .kcal {
+  display: flex;
+}
+.card .card-2 .kcals .kcal p {
+  padding-left: 10px;
+}
+.card .card-2 .kcals .veg {
+  background-color: rgb(6, 236, 6);
+  padding: 1px 6px;
+  border-radius: 5px;
+  color: #eee;
+  margin-right: 20px;
+}
+.card .money-number-2 {
+  border: inherit;
+  border-top: 1px solid rgb(179, 175, 175);
+  width: 380px;
+  height: 75px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  align-items: center;
+}
+.card .money-number-2 h2 {
+  letter-spacing: 3px;
+  color: orange;
+  font-size: 1.8rem;
+}
+.card .money-number-2 .number {
+  display: flex;
+  box-shadow: 2px 2px 5px rgb(223, 218, 218);
+}
+.card .money-number-2 .number i, .card .money-number-2 .number p {
+  border: 1px solid #eee;
+  padding: 7px 13px;
+  font-size: 1.2rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.card .money-number-2 .number i {
+  background-color: white;
+}/*# sourceMappingURL=stayl.css.map */
