@@ -4,13 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eee;
+}
+
 .card {
-  border: 2px solid red;
   width: 35%;
-  height: 550px;
+  height: 500px;
   margin: auto;
   margin-top: 35px;
   position: relative;
+  background-color: white;
+  box-shadow: 10px 10px 20px gray;
 }
 .card .fa-heart {
   position: absolute;
@@ -52,4 +57,50 @@
   margin-left: 5px;
   color: gray;
   letter-spacing: 0.5px;
+}
+.card .kcals {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  font-size: 1.2rem;
+}
+.card .kcals .kcal {
+  display: flex;
+}
+.card .kcals .kcal p {
+  padding-left: 10px;
+}
+.card .kcals .veg {
+  background-color: rgb(6, 236, 6);
+  padding: 2px 7px;
+  border-radius: 5px;
+  color: #eee;
+}
+.card .money-number {
+  border: inherit;
+  border-top: 1px solid rgb(179, 175, 175);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  align-items: center;
+}
+.card .money-number h2 {
+  letter-spacing: 3px;
+  color: orange;
+  font-size: 1.8rem;
+}
+.card .money-number .number {
+  display: flex;
+}
+.card .money-number .number i, .card .money-number .number p {
+  border: 1px solid #eee;
+  padding: 2px 7px;
+  font-size: 1.2rem;
+  background-color: #eee;
+  cursor: pointer;
+}
+.card .money-number .number i {
+  background-color: white;
 }/*# sourceMappingURL=stayl.css.map */
