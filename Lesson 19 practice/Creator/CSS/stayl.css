@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 242, 242);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+header .navbar {
+  width: inherit;
+  height: inherit;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .user-text h2 {
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+header .user-text p {
+  font-size: 1.1rem;
+}
+header .user-input input {
+  border: 2px solid rgb(58, 58, 245);
+  background-color: rgb(58, 58, 245);
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+header .user-input input ~ input {
+  background-color: white;
+  color: rgb(58, 58, 245);
+}
+
+.section .user-search {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 100px;
+}
+.section .user-search form {
+  position: relative;
+}
+.section .user-search form input {
+  padding: 10px 30px;
+  width: 350px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: rgb(243, 242, 242);
+}
+.section .user-search form input::-moz-placeholder {
+  margin-left: 10px;
+}
+.section .user-search form input:-ms-input-placeholder {
+  margin-left: 10px;
+}
+.section .user-search form input::placeholder {
+  margin-left: 10px;
+}
+.section .user-search form i {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 1.2rem;
+  color: gray;
+  cursor: pointer;
+}
+.section .user-search .form-select {
+  padding: 0px 5px;
+  width: 200px;
+  height: 45px;
+  outline: none;
+  border: 1px solid rgb(211, 209, 209);
+  background-color: rgb(250, 250, 250);
+}
+.section .cards {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+.section .cards .user-card {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.section .cards .user-card .card {
+  width: 32%;
+  height: 240px;
+  background-color: white;
+  position: relative;
+  box-shadow: 5px 5px 10px gray;
+}
+.section .cards .user-card .card img {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: aqua;
+  top: 20px;
+  left: 110px;
+}
+.section .cards .user-card .card .img-1 {
+  background-color: rgb(12, 12, 172);
+}
+.section .cards .user-card .card .img-2 {
+  background-color: crimson;
+}
+.section .cards .user-card .card .img-3 {
+  background-color: rgb(21, 214, 214);
+}
+.section .cards .user-card .card .img-4 {
+  background-color: rgb(221, 145, 5);
+}
+.section .cards .user-card .card .img-5 {
+  background-color: rgb(10, 230, 10);
+}
+.section .cards .user-card .card i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: gray;
+}
+.section .cards .user-card .card .user-text {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+}
+.section .cards .cards-bottom {
+  align-items: flex-end;
+}
+
+#none {
+  box-shadow: none;
+  background-color: rgb(243, 242, 242);
+}/*# sourceMappingURL=stayl.css.map */
