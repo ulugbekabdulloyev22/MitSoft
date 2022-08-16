@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  background-color: rgb(193, 252, 242);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.cards .card-1 .bac-img-1 {
+  width: 100%;
+  height: 200px;
+  background: rgb(247, 66, 247);
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 0, 100% 30%, 100% 100%, 50% 65%, 0 100%, 0 21%, 0 0, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 0, 100% 30%, 100% 100%, 50% 65%, 0 100%, 0 21%, 0 0, 0 0);
+}
+.cards .uch-burchak {
+  width: 100%;
+  height: 200px;
+  background: rgb(97, 160, 255);
+  -webkit-clip-path: polygon(50% 90%, 43% 99%, 57% 100%);
+          clip-path: polygon(50% 90%, 43% 99%, 57% 100%);
+  position: absolute;
+  top: 343px;
+}
+.cards .card-1 .bac-img-2 {
+  width: 100%;
+  height: 200px;
+  background: rgb(97, 160, 255);
+  -webkit-clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0% 100%);
+  position: absolute;
+  bottom: 0;
+}
+.cards .card-2 .bac-img-3 {
+  width: 100%;
+  height: 190px;
+  background: rgb(247, 66, 247);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+}
+.cards .card-2 .bac-img-4 {
+  width: 100%;
+  height: 190px;
+  background: rgb(97, 160, 255);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+  transform: rotate(180deg);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.cards .card {
+  width: 35%;
+  height: 600px;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  background-image: polygon(0 0, 100% 0, 100% 41%, 0 20%);
+  box-shadow: 10px 5px 15px gray;
+}
+.cards .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  border: 6px solid rgb(228, 224, 224);
+  top: 80px;
+  left: 165px;
+}
+.cards .card .name-hr {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 240px;
+  z-index: 10;
+}
+.cards .card .name-hr h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.cards .card .name-hr hr {
+  width: 100px;
+  background-color: black;
+  padding: 1px;
+  position: absolute;
+  top: 40px;
+  left: 185px;
+}
+.cards .card .name-hr p {
+  position: absolute;
+  top: 40px;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.17rem;
+  color: rgb(83, 80, 80);
+}
+.cards .card .name-hr .icons {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 220px;
+  left: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card .name-hr .icons i {
+  font-size: 1.8rem;
+  padding: 10px;
+  color: rgb(172, 33, 172);
+  cursor: pointer;
+}
+.cards .card .name-hr .icons-tort i {
+  border: 1px solid rgb(172, 33, 172);
+}
+.cards .card .name-hr .icons-tort i:hover {
+  color: white;
+  background-color: rgb(172, 33, 172);
+}
+.cards .card .name-hr .icons-doira i {
+  border: 1px solid rgb(172, 33, 172);
+  border-radius: 50%;
+}
+.cards .card .name-hr .icons-doira i:hover {
+  color: white;
+  background-color: rgb(172, 33, 172);
+}
+.cards .card .user-icons {
+  width: 50%;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 550px;
+  left: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card .user-icons i {
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}/*# sourceMappingURL=stayl.css.map */
