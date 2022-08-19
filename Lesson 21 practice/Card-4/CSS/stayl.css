@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  border: 2px solid grey;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  align-items: center;
+  background-color: grey;
+}
+.cards .user-card {
+  width: 80%;
+  height: 275px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards .user-card .card {
+  width: 30%;
+  height: 275px;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(185, 126, 126);
+}
+.cards .user-card .card .user-img {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .user-card .card .user-img img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards .user-card .card .user-text {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.cards .user-card .card .user-text h2 {
+  color: rgb(32, 158, 158);
+}
+.cards .user-card .card .user-text p {
+  padding: 10px 30px;
+}
+.cards .user-card .card .user-text i {
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(50, 205, 58);
+}/*# sourceMappingURL=stayl.css.map */
