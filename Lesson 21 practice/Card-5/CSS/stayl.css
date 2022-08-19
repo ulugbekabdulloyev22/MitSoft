@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  border: 2px solid grey;
+  width: 100%;
+  height: 130vh;
+  display: block;
+  align-items: center;
+  background-color: rgb(56, 124, 155);
+}
+.cards .user-card {
+  width: 80%;
+  height: 275px;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards .user-card .card {
+  width: 30%;
+  height: 325px;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(39, 35, 35);
+  border-radius: 15px;
+}
+.cards .user-card .card .user-img {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards .user-card .card .user-img img {
+  border: 3px solid grey;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cards .user-card .card .user-text {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.cards .user-card .card .user-text .help {
+  padding: 0;
+  color: rgb(114, 108, 108);
+}
+.cards .user-card .card .user-text p {
+  padding: 10px 30px;
+  color: gray;
+}
+.cards .user-card .card .user-text i {
+  height: 30px;
+  text-align: center;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(12, 104, 180);
+  border-radius: 50%;
+}
+.cards .user-card .card .user-text .fa-twitter {
+  background-color: rgb(12, 204, 204);
+}
+.cards .user-card .card .user-text .fa-facebook-f {
+  background-color: blue;
+}/*# sourceMappingURL=stayl.css.map */
