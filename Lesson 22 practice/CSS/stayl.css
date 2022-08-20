@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.user-menyu {
+  border: inherit;
+  width: 6%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(44, 43, 43);
+}
+.user-menyu a {
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: gray;
+}
+.user-menyu a i {
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 3px 10px;
+}
+.user-menyu a i p {
+  width: inherit;
+  font-size: 0.5rem;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}
+.user-menyu a i:hover {
+  background-color: rgb(31, 30, 30);
+  color: rgb(16, 173, 173);
+}
+.user-menyu a i:active {
+  background-color: rgb(31, 30, 30);
+}
+.user-menyu a .fa-bars {
+  padding: 10px;
+}
+.user-menyu a .fa-bars:hover {
+  background-color: rgb(44, 43, 43);
+  color: gray;
+}
+
+.user-chanel-group {
+  width: 23%;
+  height: inherit;
+}
+.user-chanel-group form {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.user-chanel-group form input {
+  width: 90%;
+  padding: 0px 15px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(236, 236, 236);
+}
+.user-chanel-group form input:-moz-placeholder-shown {
+  padding: 0 10px;
+  color: gray;
+  letter-spacing: 1px;
+}
+.user-chanel-group form input:-ms-input-placeholder {
+  padding: 0 10px;
+  color: gray;
+  letter-spacing: 1px;
+}
+.user-chanel-group form input:placeholder-shown {
+  padding: 0 10px;
+  color: gray;
+  letter-spacing: 1px;
+}
+.user-chanel-group .chanel-group {
+  width: 100%;
+  height: 92%;
+}
+.user-chanel-group .chanel-group .user {
+  width: 100%;
+  height: 70px;
+  display: block;
+  position: relative;
+}
+.user-chanel-group .chanel-group .user:hover {
+  background-color: lightgray;
+}
+.user-chanel-group .chanel-group .user .profil-img {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-chanel-group .chanel-group .user .profil-img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user-chanel-group .chanel-group .user .profil-name {
+  width: 230px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-top: 15px;
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+.user-chanel-group .chanel-group .user .profil-name h5 {
+  font-size: 1rem;
+  font-family: Poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-chanel-group .chanel-group .user .profil-name h5 i {
+  font-size: 0.7rem;
+  text-align: center;
+  color: rgb(63, 63, 185);
+}
+.user-chanel-group .chanel-group .user .profil-name h6 {
+  font-size: 0.8rem;
+  color: gray;
+}
+.user-chanel-group .chanel-group .user p {
+  position: absolute;
+  top: 35px;
+  left: 85px;
+}
+.user-chanel-group .chanel-group .user p span {
+  color: blue;
+}
+
+.user-write {
+  border: inherit;
+  width: 48%;
+  height: inherit;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  position: relative;
+}
+.user-write img {
+  width: 100%;
+  height: inherit;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user-write .navbar {
+  border: inherit;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+.user-write .navbar .user-img {
+  border: inherit;
+  width: 50px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-write .navbar .user-img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.user-write .navbar h6 {
+  position: absolute;
+  left: 80px;
+  font-family: Poppins;
+}
+.user-write .navbar span {
+  position: absolute;
+  left: 80px;
+  top: 27px;
+  font-size: 0.8rem;
+  color: blue;
+}
+.user-write .navbar .icons {
+  position: absolute;
+  right: 0;
+  font-size: 1.2rem;
+}
+.user-write .navbar .icons i {
+  margin: 0 10px;
+  cursor: pointer;
+  color: rgb(73, 72, 72);
+}
+.user-write .tom {
+  position: absolute;
+  top: 220px;
+  left: 240px;
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user-write .footer {
+  border: inherit;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-write .footer form {
+  margin: 0 35px;
+}
+.user-write .footer form i {
+  font-size: 1.3rem;
+  padding: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.user-write .footer form input {
+  width: 380px;
+  outline: none;
+  border: none;
+}
+.user-write .footer form input:-moz-placeholder-shown {
+  padding: 0 20px;
+}
+.user-write .footer form input:-ms-input-placeholder {
+  padding: 0 20px;
+}
+.user-write .footer form input:placeholder-shown {
+  padding: 0 20px;
+}
+.user-write .footer div {
+  font-size: 1.3rem;
+  margin: 0 10px;
+}
+.user-write .footer div i {
+  padding: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.user-gif-smail {
+  border: inherit;
+  width: 23%;
+  height: inherit;
+}/*# sourceMappingURL=stayl.css.map */
