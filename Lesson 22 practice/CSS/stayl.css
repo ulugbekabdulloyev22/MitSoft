@@ -1,4 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +61,7 @@ body {
 }
 .user-menyu a i:active {
   background-color: rgb(31, 30, 30);
+  color: #38f9d7;
 }
 .user-menyu a .fa-bars {
   padding: 10px;
@@ -89,6 +108,7 @@ body {
 .user-chanel-group .chanel-group {
   width: 100%;
   height: 92%;
+  overflow-y: scroll;
 }
 .user-chanel-group .chanel-group .user {
   width: 100%;
@@ -130,6 +150,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10px;
 }
 .user-chanel-group .chanel-group .user .profil-name h5 i {
   font-size: 0.7rem;
