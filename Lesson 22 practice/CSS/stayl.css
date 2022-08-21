@@ -229,15 +229,6 @@ body {
   cursor: pointer;
   color: rgb(73, 72, 72);
 }
-.user-write .tom {
-  position: absolute;
-  top: 220px;
-  left: 240px;
-  width: 200px;
-  height: 200px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 .user-write .footer {
   border: inherit;
   width: 100%;
@@ -286,4 +277,189 @@ body {
   border: inherit;
   width: 23%;
   height: inherit;
+}
+.user-gif-smail .box-del {
+  border: inherit;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.user-gif-smail .box-del h4 {
+  margin: 0 20px;
+  font-size: 1.1rem;
+}
+.user-gif-smail .box-del i {
+  margin: 0 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.user-gif-smail .user-info {
+  border: inherit;
+  width: 100%;
+  height: 92.5%;
+  overflow-y: scroll;
+  background-color: rgb(228, 228, 228);
+}
+.user-gif-smail .user-info .box-img-name {
+  border: inherit;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  background-color: white;
+}
+.user-gif-smail .user-info .box-img-name img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 0 20px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  cursor: context-menu;
+}
+.user-gif-smail .user-info .box-img-name h6 {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 25px;
+  font-family: Poppins;
+  top: 15px;
+}
+.user-gif-smail .user-info .box-img-name h6 span {
+  display: block;
+  font-size: 0.9rem;
+  color: blue;
+  font-family: cursive;
+}
+.user-gif-smail .user-info .user-link-number {
+  border: inherit;
+  margin: 5px 0;
+  width: 100%;
+  height: 155px;
+  background-color: white;
+  display: flex;
+  position: relative;
+}
+.user-gif-smail .user-info .user-link-number .icon {
+  margin: 10px 0;
+  border: inherit;
+  height: 30px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-gif-smail .user-info .user-link-number .icon i {
+  height: 30px;
+  border-radius: 50%;
+  transform: rotate(180deg);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.user-gif-smail .user-info .user-link-number .icon i:hover {
+  color: gold;
+}
+.user-gif-smail .user-info .user-link-number .link-number {
+  border: inherit;
+  border-bottom: 1px solid gray;
+  width: 83%;
+  height: 70%;
+}
+.user-gif-smail .user-info .user-link-number .link-number .blok {
+  width: 100%;
+  height: 45px;
+  margin: 5px 0;
+}
+.user-gif-smail .user-info .user-link-number .link-number .blok p {
+  font-size: 1.1rem;
+  margin: 0 10px;
+  font-family: "Times New Roman", Times, serif;
+  word-spacing: 0px;
+}
+.user-gif-smail .user-info .user-link-number .link-number .blok p span {
+  display: block;
+  color: gray;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 0 20px;
+}
+.user-gif-smail .user-info .user-link-number .bell {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.user-gif-smail .user-info .user-link-number .bell:hover {
+  background-color: rgb(238, 238, 238);
+}
+.user-gif-smail .user-info .user-link-number .bell i {
+  font-size: 1.4rem;
+  color: rgb(143, 142, 142);
+  cursor: pointer;
+}
+.user-gif-smail .user-info .user-link-number .bell i:hover {
+  color: #38f9d7;
+}
+.user-gif-smail .user-info .user-link-number .bell p {
+  font-size: 1.1rem;
+  margin: 0 30px;
+}
+.user-gif-smail .user-info .user-link-number .bell .form-check-input {
+  cursor: pointer;
+}
+.user-gif-smail .user-info .photo-file-link {
+  border: inherit;
+  width: 100%;
+  height: 205px;
+  background-color: white;
+}
+.user-gif-smail .user-info .photo-file-link .file-name {
+  border: inherit;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.user-gif-smail .user-info .photo-file-link .file-name:hover {
+  background-color: rgb(238, 238, 238);
+}
+.user-gif-smail .user-info .photo-file-link .file-name i {
+  font-size: 1.5rem;
+  margin: 0px 30px;
+}
+.user-gif-smail .user-info .photo-file-link .file-name p {
+  padding: px 0;
+}
+.user-gif-smail .user-info .user-block-delete {
+  border: inherit;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin: 5px 0;
+}
+.user-gif-smail .user-info .user-block-delete .block-delete-icons {
+  border: inherit;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 50px;
+}
+.user-gif-smail .user-info .user-block-delete .block-delete-icons:hover {
+  background-color: rgb(238, 238, 238);
+}
+.user-gif-smail .user-info .user-block-delete .block-delete-icons i {
+  font-size: 1.5rem;
+  margin: 12px 30px;
+}
+.user-gif-smail .user-info .user-block-delete .block-delete-icons p {
+  padding: 10px 0;
+}
+.user-gif-smail .user-info .user-block-delete .block-delete-icons .fa-ban-1 {
+  color: crimson;
 }/*# sourceMappingURL=stayl.css.map */
