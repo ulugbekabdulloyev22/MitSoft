@@ -233,3 +233,122 @@ body{
         }
     }
 }
+
+@media screen and (min-width: 500px) and(max-width:1500px) {
+    .fa-bars{
+        display: none;
+    }
+  }
+
+@media only screen and (min-width:300px) and (max-width:500px) {
+
+    body{
+        // border: 1px solid red;
+
+        .header, .section, .footer{
+            width: 100%;
+        }
+    }
+
+    .header{
+        background-size: cover;
+        background-position-x: -300px;
+        padding: 0;
+        .navbar{
+            display: flex;
+            padding: 0 20px;
+            height: 80px;
+            transition: all 1s;
+            transform: rotate(0deg);
+
+            i{
+                font-size: 1.2rem;
+                color: #FFF;
+
+                &:active{
+                    transform: rotate(720deg);
+                }
+                &:focus{
+                    transform: rotate(720deg);
+                }
+                &:hover{
+                    transition: all 1s;
+                    transform: rotate(720deg);
+                }
+            }
+            img{
+                width: 90px;
+                height: 50px;
+            }
+            ul{
+                display: none;
+            }
+        }
+
+        .user-text{
+            font-size: 1.2rem;
+
+            h5{
+                font-size: .8rem;
+            }
+        }
+    }
+
+    .section{
+        width: 100%;
+        height: 1300px;
+        flex-direction: column;
+
+        .lacation{
+            width: 99%;
+            height: 400px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items:center;
+        }
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        
+        .box{
+            padding: 10px 0 0 20px;
+            width: 190px;
+            h3{
+                font-size: .8rem;
+            }
+
+            p{
+                font-size: .8rem;
+            }
+
+            button{
+                padding: 5px 15px;
+            }
+        }
+
+        .center-side{
+            .side{
+                font-size: .9rem;
+                &:nth-child(2){
+                    display: none;
+                }
+
+                ul{
+                    li{
+                        margin-bottom: .6rem;
+                    }
+                }
+            }
+        }
+
+        .right-side{
+            width: 100%;
+            height: 80px;
+            text-align: center;
+        }
+    }
+    
+}

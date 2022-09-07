@@ -194,4 +194,98 @@ body {
 }
 .footer .center-side .side ul a:hover {
   color: #fff;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+  .fa-bars {
+    display: none;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .header, body .section, body .footer {
+    width: 100%;
+  }
+  .header {
+    background-size: cover;
+    background-position-x: -300px;
+    padding: 0;
+  }
+  .header .navbar {
+    display: flex;
+    padding: 0 20px;
+    height: 80px;
+    transition: all 1s;
+    transform: rotate(0deg);
+  }
+  .header .navbar i {
+    font-size: 1.2rem;
+    color: #FFF;
+  }
+  .header .navbar i:active {
+    transform: rotate(720deg);
+  }
+  .header .navbar i:focus {
+    transform: rotate(720deg);
+  }
+  .header .navbar i:hover {
+    transition: all 1s;
+    transform: rotate(720deg);
+  }
+  .header .navbar img {
+    width: 90px;
+    height: 50px;
+  }
+  .header .navbar ul {
+    display: none;
+  }
+  .header .user-text {
+    font-size: 1.2rem;
+  }
+  .header .user-text h5 {
+    font-size: 0.8rem;
+  }
+  .section {
+    width: 100%;
+    height: 1300px;
+    flex-direction: column;
+  }
+  .section .lacation {
+    width: 99%;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer .box {
+    padding: 10px 0 0 20px;
+    width: 190px;
+  }
+  .footer .box h3 {
+    font-size: 0.8rem;
+  }
+  .footer .box p {
+    font-size: 0.8rem;
+  }
+  .footer .box button {
+    padding: 5px 15px;
+  }
+  .footer .center-side .side {
+    font-size: 0.9rem;
+  }
+  .footer .center-side .side:nth-child(2) {
+    display: none;
+  }
+  .footer .center-side .side ul li {
+    margin-bottom: 0.6rem;
+  }
+  .footer .right-side {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=stayl.css.map */
