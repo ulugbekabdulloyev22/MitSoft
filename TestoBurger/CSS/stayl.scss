@@ -4,9 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
 }
 body{
+    outline: none;
     // border: 1px solid red;
 }
 
@@ -22,7 +22,7 @@ body{
     .navbar{
         border: inherit;
         width: 100%;
-        height: 90px;
+        height: 100px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -51,6 +51,11 @@ body{
                     color: #fff;
                     font-size: 22px;
                     font-family: 'Oswald', sans-serif;
+                    transition: 0.5s;
+
+                    &:hover{
+                        color: #FFFFFF8D;
+                    }
                 }
             }
 
@@ -140,6 +145,90 @@ body{
                 font-size: 1rem;
                 color: rgb(87, 85, 85);
                 margin: 10px;
+            }
+        }
+    }
+}
+
+.footer{
+    border: inherit;
+    width: 100%;
+    height: 400px;
+    background-color: #1e1e1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box{
+        border: inherit;
+        width: 350px;
+        height: 300px;
+        padding: 0 30px;
+    }
+
+    h3{
+        color: #fff;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        letter-spacing: .1em;
+    }
+    
+    p{
+        color: #FFFFFF8D;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
+
+    button{
+        margin: 20px 0;
+        padding: 10px 23px;
+        color: #fff;
+        border: none;
+        background: orange;
+        border-radius: 5px;
+    }
+
+    .icons{
+        i{
+            margin: 0 10px;
+            color: #FFFFFF8D;
+            transition: all .2s;
+
+            &:hover{
+                color: #FFF;
+            }
+        }
+    }
+
+    .center-side{
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        
+        .side{
+            border: inherit;
+            width: 250px;
+            padding: 0 30px;
+            ul{
+                list-style: none;
+
+                li{
+                    margin-bottom: 1rem;
+                }
+
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF8D;
+                    font-size: .9rem;
+                    letter-spacing: 1px;
+                    // font-family: 'Oswald', sans-serif;
+                    transition: all .3s;
+
+                    &:hover{
+                        color: #fff;
+                    }
+                }
             }
         }
     }
