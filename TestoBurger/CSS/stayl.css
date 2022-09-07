@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.header {
+  border: inherit;
+  width: 100%;
+  height: 400px;
+  padding: 0 70px;
+  background: url(../IMG/bac-img.jpg) no-repeat;
+  background-size: cover;
+}
+.header .navbar {
+  border: inherit;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navbar img {
+  width: 151px;
+  height: 80px;
+}
+.header .navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.header .navbar ul li:nth-child(6) a {
+  color: #f7be27;
+}
+.header .navbar ul li a {
+  text-decoration: none;
+  padding: 0 16px;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+}
+.header .navbar ul i {
+  color: #fff;
+  font-size: 20px;
+  padding: 0 16px;
+}
+.header .user-text {
+  border: inherit;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-family: "Oswald", sans-serif;
+}
+.header .user-text h5 {
+  letter-spacing: 2px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.section {
+  border: inherit;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section .lacation {
+  border: inherit;
+  width: 350px;
+  height: 560px;
+  margin: 20px;
+  overflow: hidden;
+}
+.section .lacation .user-img {
+  border: inherit;
+  width: 350px;
+  height: 375px;
+  overflow: hidden;
+}
+.section .lacation .user-img img {
+  width: 350px;
+  height: 375px;
+  transition: all 0.5s;
+}
+.section .lacation .user-img img:hover {
+  transform: scale(1.2);
+}
+.section .lacation .user-text {
+  border: inherit;
+  height: 225px;
+  text-align: center;
+  padding: 0 45px;
+}
+.section .lacation .user-text h2 {
+  color: red;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin: 15px 0 10px;
+}
+.section .lacation .user-text h4 {
+  color: #000;
+  font-size: 1.1rem;
+}
+.section .lacation .user-text h4:nth-child(2) {
+  margin: 15px;
+}
+.section .lacation .user-text h5 {
+  font-size: 1rem;
+  color: rgb(87, 85, 85);
+  margin: 10px;
+}/*# sourceMappingURL=stayl.css.map */
