@@ -119,12 +119,14 @@ body{
             align-items: center;
             flex-direction: column;
             padding: 0 400px;
+            flex-wrap: wrap;
         }
         &:nth-child(2){
             height: 450px;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+            flex-wrap: wrap;
 
             .card{
                 border: inherit;
@@ -181,6 +183,7 @@ body{
     text-align: center;
     font-size: 1.8rem;
     word-spacing: 1.8px;
+    flex-wrap: wrap;
 
     p{
         font-size: 1.1rem;
@@ -235,12 +238,14 @@ body{
             align-items: center;
             flex-direction: column;
             padding: 0 400px;
+            flex-wrap: wrap;
         }
         &:nth-child(2){
             height: 450px;
             display: flex;
             justify-content: space-evenly;
             align-items: center;
+            flex-wrap: wrap;
 
             .card{
                 border: inherit;
@@ -386,6 +391,105 @@ footer{
                         
                         &:hover{
                             color: orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and(min-width:500px) and(max-width:3000px) {
+    .header{
+        .navbar{
+            .fa-bars{
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and(min-width:310px) and (max-width:500px) {
+    body{
+        .header{
+            text-align: center;
+            .navbar{
+                padding: 0 25px;
+                img{
+                    width: 90px;
+                }
+
+                ul{
+                    display: none;
+                }
+            }
+
+            .user-text{
+                background-position: 0 -250px;
+            }
+        }
+
+        .section, .section-3{
+            text-align: center;
+            height: 1600px;
+
+            .div{
+                &:nth-child(1){
+                    padding: 0 30px;
+                    h1{
+                        font-size: 1.7rem;
+                    }
+
+                    p{
+                        font-size: 1rem;
+                    }
+                }
+                &:nth-child(2){
+                    height: 1400px;
+                }
+            }
+        }
+    }
+
+    .section-2{
+        padding: 0 20px;
+        font-size: 1.3rem;
+        background-position: -400px 0;
+
+        p{
+            font-size: 1.05rem;
+        }
+
+        button{
+            padding: 12px 20px;
+        }
+    }
+
+    footer{
+        text-align: center;
+
+        .div{
+            &:nth-child(1){
+                h1{
+                    font-size: 1.8rem;
+                }
+
+                ul{
+                    li{
+                        a{
+                            span{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            &:nth-child(2){
+                ul{
+                    li{
+                        margin: 0 11px;
+                        a{
+                            font-size: 1rem;
                         }
                     }
                 }

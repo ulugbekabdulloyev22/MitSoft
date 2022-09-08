@@ -105,12 +105,14 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 0 400px;
+  flex-wrap: wrap;
 }
 .section .div:nth-child(2) {
   height: 450px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .section .div:nth-child(2) .card {
   border: inherit;
@@ -159,6 +161,7 @@ body {
   text-align: center;
   font-size: 1.8rem;
   word-spacing: 1.8px;
+  flex-wrap: wrap;
 }
 .section-2 p {
   font-size: 1.1rem;
@@ -209,12 +212,14 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 0 400px;
+  flex-wrap: wrap;
 }
 .section-3 .div:nth-child(2) {
   height: 450px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 }
 .section-3 .div:nth-child(2) .card {
   border: inherit;
@@ -353,4 +358,69 @@ footer .div:nth-child(2) ul li a {
 }
 footer .div:nth-child(2) ul li a:hover {
   color: orange;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 3000px) {
+  .header .navbar .fa-bars {
+    display: none;
+  }
+}
+@media only screen and (min-width: 310px) and (max-width: 500px) {
+  body .header {
+    text-align: center;
+  }
+  body .header .navbar {
+    padding: 0 25px;
+  }
+  body .header .navbar img {
+    width: 90px;
+  }
+  body .header .navbar ul {
+    display: none;
+  }
+  body .header .user-text {
+    background-position: 0 -250px;
+  }
+  body .section, body .section-3 {
+    text-align: center;
+    height: 1600px;
+  }
+  body .section .div:nth-child(1), body .section-3 .div:nth-child(1) {
+    padding: 0 30px;
+  }
+  body .section .div:nth-child(1) h1, body .section-3 .div:nth-child(1) h1 {
+    font-size: 1.7rem;
+  }
+  body .section .div:nth-child(1) p, body .section-3 .div:nth-child(1) p {
+    font-size: 1rem;
+  }
+  body .section .div:nth-child(2), body .section-3 .div:nth-child(2) {
+    height: 1400px;
+  }
+  .section-2 {
+    padding: 0 20px;
+    font-size: 1.3rem;
+    background-position: -400px 0;
+  }
+  .section-2 p {
+    font-size: 1.05rem;
+  }
+  .section-2 button {
+    padding: 12px 20px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .div:nth-child(1) h1 {
+    font-size: 1.8rem;
+  }
+  footer .div:nth-child(1) ul li a span {
+    display: none;
+  }
+  footer .div:nth-child(2) ul li {
+    margin: 0 11px;
+  }
+  footer .div:nth-child(2) ul li a {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=stayl.css.map */
