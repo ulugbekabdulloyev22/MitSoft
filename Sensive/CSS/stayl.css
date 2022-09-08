@@ -380,7 +380,6 @@ footer .div:nth-child(2) ul li a:hover {
     display: none;
   }
   body .header .user-text {
-    background-position: 0 -250px;
     height: 100vh;
     padding: 0 20px;
   }
