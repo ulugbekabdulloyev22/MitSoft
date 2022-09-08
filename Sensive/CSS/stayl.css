@@ -52,6 +52,7 @@ body {
   background: url(../IMG/header-bacraunr-img.jpg) no-repeat;
   background-size: 100% 800px;
   background-position-y: -100px;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,6 +381,9 @@ footer .div:nth-child(2) ul li a:hover {
     display: none;
   }
   body .header .user-text {
+    background-position: -500px 0;
+    background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
     padding: 0 20px;
   }
