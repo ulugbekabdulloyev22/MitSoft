@@ -7,4 +7,4 @@ let a, b, c, d, USD, UZS;
         d = b * 0.0000914;
 
         USD = alert(a + ' USD =' + c + ' UZS (so`m)' );
-        UZS = alert(a + ' UZS =' + d + ' USD (dollor)' );
+        UZS = alert(b + ' UZS =' + d + ' USD (dollor)' );
